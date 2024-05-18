@@ -1,0 +1,139 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    background-color: #22d652;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+a:hover {
+     box-shadow: 3px 5px 5px 0 gold;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #2abd51;
+    margin:0;
+}
+
+header img{
+     border-radius: 30%;
+    border: 10px dashed green;
+}
+
+.back{
+    position: absolute;
+    height: 634px;
+}
+
+main h2{
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 30px;
+    left: 390px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+
+.div1{
+    display:flex;
+justify-content: space-between;
+margin: 10px;
+
+}
+
+.div2{
+    display: flex;
+justify-content: space-between;
+margin: 10px
+}
+
+.buttons{
+    top:170px;
+    position: absolute;
+    width: 97%;
+}
+
+.plants{
+    top:100px;
+    height: 200px;
+    position: relative;
+    border-radius: 25%;
+    border: 10px green dashed;
+}
+
+.zombie{
+    position: relative;
+    border-radius: 25%;
+    border: 10px green dashed;
+    height: 200px;
+    top: 100px;
+}
+
+p{
+    position: relative;
+    font-size: 30px;
+    left: 250px;
+    font-weight: 600;
+}
+
+iframe{
+    position: relative;
+    bottom: 100px;
+    top: 100px;
+    border-radius: 15%;
+    right: 35px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+h3{
+    position: relative;
+    font-weight: 600;
+    font-size: 30px;
+    left: 390px; 
+    top: 80px;
+}
+
+h5{
+    position: relative;
+    top: 50px;
+    left: 80px;
+    font-size: 14px;
+}
+
+h4{
+    position: relative;
+    font-weight: 600;
+    font-size: 30px;
+    left: 950px;
+    bottom: 40px;
+}
+
+footer img{
+    height: 170px;
+    position: relative;
+    left: 800px;
+    bottom: 67px;
+    border: 7px black solid;
+}
